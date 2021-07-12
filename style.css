@@ -1,0 +1,37 @@
+* {
+	font-family: sans-serif;
+}
+body {
+	background: #424242;
+}
+h3 {
+	text-align: center;
+	color: white;
+}
+button {
+	background: #FB8C00;
+	display: inline-block;
+	line-height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	border: 1px solid gray;
+	color: white;
+}
+button:hover {
+	background: white;
+	color: #FB8C00;
+}
+@media(max-width:600px){
+	body {
+		text-align: center;
+	}
+	#number1 {
+		margin-left: 25px;
+	}
+	#number2 {
+		margin-right: 25px;
+	}
+	button {
+		margin-top: 20px;
+	}
+}
